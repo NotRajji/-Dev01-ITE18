@@ -1,3 +1,29 @@
 # Godot 4+ specific ignores
 .godot/
-/android/
+godot_cpp/
+*.import
+export.cfg
+export_presets.cfg
+
+# Imported assets (can be replaced with .import files)
+*.import
+
+# Godot-specific build artifacts
+.build/
+.mono/
+mono_crash.*
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
